@@ -4,7 +4,7 @@ def main():
     gestionnaire = GestionnaireTaches()
 
     while True:
-        print("Gestionnaire de tâches")aaaa
+        print("Gestionnaire de tâches")
         print("1. Ajouter une tâche")
         print("2. Supprimer une tâche")
         print("3. Marquer une tâche comme terminée")
