@@ -21,7 +21,7 @@ def main():
             gestionnaire.supprimer_tache(tache)
         elif choix == "3":
             tache = input("Entrez le nom de la tâche terminée : ")
-            gestionnaire.marquer_tache_terminée(tache)
+            gestionnaire.marquer_tache_terminee(tache)
         elif choix == "4":
             gestionnaire.liste_taches_en_cours()
         elif choix == "5":

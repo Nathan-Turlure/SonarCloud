@@ -21,7 +21,7 @@ class GestionnaireTaches:
         else:
             print(f"Tâche '{nom}' introuvable.")
 
-    def marquer_tache_terminée(self, nom):
+    def marquer_tache_terminee(self, nom):
         for tache in self.taches:
             if tache.nom == nom:
                 tache.terminee = True
